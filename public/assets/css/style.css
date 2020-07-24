@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-Y: scroll;
+    background: linear-gradient(45deg, #F44336, #E91E63);
+    background-attachment: fixed;
+}
+.container-c {
+    background-color: white;
+    width: 350px;
+    box-shadow: 0px 0px 45px 1px #90001b;
+    margin: 90px auto;
+    padding: 40px 35px;
+    border-radius: 22px;
+}
+input[type="submit"] {
+    background: linear-gradient(45deg, #F44336, #E91E63);
+    color: white;
+    outline:0;
+    cursor: pointer;
+}
+input[type="text"] {
+    width: 90%;
+    padding: 2px;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 1px solid #d2d2d2;
+    outline: 0;
+    margin: 20px 0;
+}
+select {
+    outline: 0;
+    font-weight: 100;
+}
+i.btn {
+    background: linear-gradient(45deg, #F44336, #E91E63);
+    width: 100%;
+    box-shadow: 0 18px 23px -14px #f13844;
+    font-size: 15px;
+}
+i.btn:hover{
+    box-shadow: unset;
+}
+.tabs .tab {
+    margin: 0px 19px !important;
+}
+.switch.btn{
+
+}
